@@ -25,12 +25,12 @@ At a high level, this app does the following:
 5. The python script then passes back to the client all of the latitudes and longitudes for the top 5 closest stations, the shortest route and bike availability information. 
 6. Then the client renders the user's position, top 5 closest stations and the route to the closest station. 
 7. The client also renders metrics about distance to each top station and the number of bikes available to rent.
-<br/>
+
 
 ### What does this app look like?
 
 {{INSERT SCREENSHOT}}
-<br/>
+
 
 ### Requirements
 
@@ -52,7 +52,7 @@ On the client side:
 
 I also installed Termux on the Play Store to run the app locally on my phone.
 
-<br/>
+
 ### Main files to review how it works
 
 Essentially, main functionality of the app is contained within the following files:
@@ -61,12 +61,12 @@ Essentially, main functionality of the app is contained within the following fil
 2. bikeshare_np.py - this is a helper script which determines distances and other information about each bikestation.
 3. /static/location.html - this is the index page which renders the map and all of the data.
 
-<br/>
+
 ### Demo
 
 I'll put this up on a server shortly.
 
-<br/>
+
 ### Useful Reference Links
 
 Here are some links that I found very useful:
