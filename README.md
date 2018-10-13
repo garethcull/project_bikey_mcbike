@@ -29,7 +29,7 @@ At a high level, this app does the following:
 
 ### What does this app look like?
 
-<img src="https://raw.githubusercontent.com/garethcull/project_bikey_mcbike/master/static/img/bikey_mcbike_screenshot.png" width="200" />
+<img src="https://raw.githubusercontent.com/garethcull/project_bikey_mcbike/master/static/img/bikey_mcbike_screenshot.png" width="500" />
 
 ### Requirements
 
