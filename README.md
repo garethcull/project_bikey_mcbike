@@ -29,8 +29,7 @@ At a high level, this app does the following:
 
 ### What does this app look like?
 
-{{INSERT SCREENSHOT}}
-
+![Screenshot](https://raw.githubusercontent.com/garethcull/project_bikey_mcbike/master/static/img/bikey_mcbike_screenshot.png)
 
 ### Requirements
 
@@ -64,8 +63,7 @@ Essentially, main functionality of the app is contained within the following fil
 
 ### Demo
 
-I'll put this up on a server shortly.
-
+You can find this app working here: https://bikey-mcbike.herokuapp.com/
 
 ### Useful Reference Links
 
