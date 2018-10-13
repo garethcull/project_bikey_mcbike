@@ -1,0 +1,210 @@
+html, body {
+    
+    width: 100%;
+    height: 1200px;
+    margin: 0;
+    padding: 0; 
+    overflow-x:hidden; 
+    background-color: #fafaf8
+
+}
+
+#map {
+    
+    position:absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+
+}
+
+
+#map_65d7746a8f474663b08f410179dc7d40 {
+    
+    position: absolute;
+    width: 100.0%;
+    height: 750px;
+    left: 0.0%;
+    top: 0px;
+
+}
+
+#myTable {
+    
+    width: 100%;
+    position: relative;
+    top: 8px;
+
+}
+
+#last-updated {
+
+    position: absolute;
+    top: 66px;
+    right: 10px;
+
+}
+
+li {
+
+    list-style: none;
+
+}
+
+
+#info-container {
+
+    position: relative;
+    top: 400px;
+    left: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    z-index: 9999;
+
+}
+
+.closest-station-title {
+
+    position: relative;
+    top:0px;
+    color: #76c2af;
+
+}
+
+#closest-station-name {
+
+    position: relative;
+    top: -14px;
+    font-size: 22px;
+
+
+
+}
+
+.distance-title {
+
+    position: relative;
+    top:10px;
+    color: #76c2af;
+
+
+}
+
+#closest-station-distance {
+
+    position: relative;
+    top:-5px;
+
+}
+
+.bikes-avail-title {
+
+
+    position: relative;
+    top:-70px;
+    left:185px;
+    color: #76c2af;
+
+}
+
+
+#closest-station-bikes-avail {
+
+    position: relative;
+    top:-83px;
+    left:185px;
+
+}
+
+.other-station-title {
+
+    position: relative;
+    top:0px;
+    color: #76c2af;
+
+
+}
+
+footer {
+
+    position: relative;
+    top: 550px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+
+.container {
+    
+    margin-right: 0;
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
+
+}
+
+@media (min-width: 768px) {
+    .container {
+width: 100%;
+}
+}
+@media (min-width: 992px) {
+.container {
+width: 100%;
+}
+}
+@media (min-width: 1200px) {
+.container {
+width: 100%;
+}
+}
+.container-fluid {
+margin-right: 0;
+margin-left: 0;
+padding-left: 0;
+padding-right: 0;
+}
+
+
+.main-info-card        {
+background-color: #FFF;
+border: solid 1px #c1c1c1;
+position: relative;
+top: 100px;
+padding:20px;    
+height: 200px;        
+
+
+
+
+}
+
+
+#info-container > div.main-info-card.effect2 {
+
+    min-height: 170px;
+    overflow: hidden;
+
+}
+
+.second-card {
+
+background-color: #FFF;
+border: solid 1px #c1c1c1;
+position: relative;
+top: 112px;
+padding:20px;    
+min-height: 375px;   
+overflow: hidden;
+
+
+}        
+
+#info-container > div.second-card.effect2 {
+overflow: hidden;
+
+
+}
+        
+        
