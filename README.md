@@ -9,7 +9,7 @@ Demo<br/>
 
 ### What is Project Bikey McBike?
 
-Recently, I put together a series of posts about how to plot ride and bike sharing data on a map using python. As someone who loves hacking away on data and building data driven products, I thought it would be fun to take the code behind those tutorials and transform it into a simple bike sharing application using the Flask microframework and SocketIO. And then in true open source fashion, i'll document how it works and post the code online for anybody who wants to learn how to create a simple data-driven sharing app. 
+Recently, I put together a series of posts about how to plot ride and bike sharing data on a map using python. As someone who loves hacking away on data and building data driven products, I thought it would be fun to take the code behind those tutorials and transform it into a simple bike sharing application using the Flask microframework and SocketIO. And then in true open source fashion, i'll document how it works and post the code online for anybody who wants to learn how to create a simple data-driven mapping app. 
 
 Feel free to fork, and even replace bike share data with other data feeds of your own. 
 <br/>
@@ -56,9 +56,9 @@ I also installed Termux on the Play Store to run the app locally on my phone.
 
 Essentially, main functionality of the app is contained within the following files:
 
-1. main_mobile.py - this is the main script which aggregates and transforms data from the client (geo) and bikeshare data
-2. bikeshare_np.py - this is a helper script which determines distances and other information about each bikestation.
-3. /static/location.html - this is the index page which renders the map and all of the data.
+1. app.py - this is the main script which aggregates and transforms data from the client (geo) and bikeshare data
+2. helper.py - this is a helper script which determines distances and other information about each bikestation.
+3. /static/js/buildmap.js - this is the main javascript file which takes data from server and maps all data. 
 
 
 ### Demo
