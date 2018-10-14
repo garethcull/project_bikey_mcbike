@@ -29,7 +29,7 @@ At a high level, this app does the following:
 
 ### What does this app look like?
 
-<img src="https://raw.githubusercontent.com/garethcull/project_bikey_mcbike/master/static/img/bikey_mcbike_screenshot.png" width="500" />
+<img src="https://raw.githubusercontent.com/garethcull/project_bikey_mcbike/master/static/img/bikey_mcbike_screenshot.png" width="400" />
 
 ### Requirements
 
@@ -63,7 +63,10 @@ Essentially, main functionality of the app is contained within the following fil
 
 ### Demo
 
-You can find this app working here: https://bikey-mcbike.herokuapp.com/
+You can find this app working here:
+https://bikey-mcbike.herokuapp.com/
+
+You'll need to grant location priveleges for the demo to work.
 
 ### Useful Reference Links
 
