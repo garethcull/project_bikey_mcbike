@@ -87,7 +87,7 @@ def get_closest_stn(mycoord,all_stn_data):
         aware_date = utc.localize(convert)
         eastern = pytz.timezone('US/Eastern')
         eastern_time = aware_date.astimezone(eastern).strftime('%Y-%m-%d %H:%M:%S')
-        print([last_updated, eastern_time])
+        # print([last_updated, eastern_time])
         
         # Set marker colors of bike icons to red if bikes avail = 0, else set to green.
         if bikes_avail == 0:
@@ -197,10 +197,10 @@ def plot_route(myLat,myLon,closestLat,closestLon):
 
         # We need to reverse the long / lat output from results so that we can graph lat / long
         reverse = [(y, x) for x, y in decoded['coordinates']]
-        print(reverse)
+        # print(reverse)
     
     except:
-        print('Api limit reached')
+        # print('Api limit reached')
         reverse = None
     
     return reverse
